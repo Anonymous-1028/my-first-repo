@@ -1,21 +1,27 @@
-# Git 学习仓库
+# 学习资料
 
-这是一个用于练习 Git 基础操作的学习仓库。
+这个仓库用于整理学习笔记、示例和练习文件，内容会随着学习进度持续补充。
 
-## 学习资料
+## 当前内容
+
+### Git
 
 - [Git 快速入门](git学习/git快速入门.md)
 - [Git 学习笔记](git学习/Git学习笔记.md)
 - [测试文件](git学习/测试文件.txt)
 
-## 最简练习流程
+相关图片统一保存在 `git学习/assets` 目录中。
 
-修改 `git学习/测试文件.txt` 后，在仓库根目录执行：
+## 目录说明
 
-```powershell
-git add "git学习/测试文件.txt"
-git commit -m "修改测试文件"
-git push origin main
+```text
+my-first-repo/
+├─ README.md
+└─ git学习/
+   ├─ git快速入门.md
+   ├─ Git学习笔记.md
+   ├─ 测试文件.txt
+   └─ assets/
 ```
 
-`git学习/assets` 用于保存学习文档中的图片。
+以后可以按照不同的学习主题创建新的文件夹，并在这里添加对应入口。
