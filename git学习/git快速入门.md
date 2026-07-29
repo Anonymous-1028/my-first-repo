@@ -36,7 +36,7 @@ git clone https://github.com/Anonymous-1028/my-first-repo.git
 
 #### 1.2 选择拉取仓库的位置
 
-这一步的意思就是给你要文件找个地方，本教材为了简单明了，就选择在桌面
+这一步的意思就是给你要文件找个地方，本文档为了简单明了，就选择在桌面
 
 ```powershell
 cd C:\Users\19222\Desktop
@@ -46,31 +46,35 @@ cd C:\Users\19222\Desktop
 
 #### 1.3 拉取GitHub上的代码库
 
+将该命令输入到cmd/Powershell执行，如图
+
+```powershell
+git clone https://github.com/Anonymous-1028/my-first-repo.git
+```
+
+执行完后你就可以看到你桌面上出现一个与文件夹，这个文件夹与你拉取仓库名字一样就是拉取成功了。
+
+![image-20260729153411244](assets/image-20260729153411244.png)
+
 
 
 ## 2. 进入仓库
+
+和前面一样输入在这个黑框框里面
 
 ```powershell
 cd my-first-repo
 ```
 
-进入后，后面的 `git add`、`git commit` 和 `git push` 都在 `my-first-repo` 仓库根目录中执行。
-
-仓库局部结构如下：
-
-```text
-my-first-repo/                 ← 在这里执行 Git 命令
-└─ git学习/
-   ├─ git快速入门.md
-   ├─ Git学习笔记.md
-   └─ 测试文件.txt             ← 在这里修改练习内容
-```
+![image-20260729154627837](assets/image-20260729154627837.png)
 
 ## 3. 修改文件
 
-打开 `git学习` 文件夹中的 `测试文件.txt`，修改内容并保存。（打开拉去下来的仓库，找到对应文件修改）
+打开 `git学习` 文件夹中的 `测试文件.txt`，修改内容并保存。
 
 以后练习 Git 时，只修改这个测试文件，不需要修改其他文件。
+
+![image-20260729163259012](assets/image-20260729163259012.png)
 
 ## 4. 添加修改
 
@@ -80,7 +84,9 @@ git add "git学习/测试文件.txt"
 
 这条命令表示：准备把 `测试文件.txt` 的修改放入本次提交。命令仍然是在 `my-first-repo` 根目录中执行。
 
-如果修改了多个文件，也可以一次添加全部修改：
+![image-20260729163448299](assets/image-20260729163448299.png)
+
+如果修改了多个文件，也可以一次添加全部修改：(直接使用这个也是一样的)
 
 ```powershell
 git add .
@@ -94,6 +100,8 @@ git commit -m "修改学习文件"
 
 这条命令把刚才添加的修改保存为一个本地版本。引号中的文字用于说明这次修改了什么。
 
+![image-20260729163558409](assets/image-20260729163558409.png)
+
 ## 6. 推送到 GitHub
 
 ```powershell
@@ -101,6 +109,12 @@ git push origin main
 ```
 
 这条命令把本地提交上传到 GitHub。推送成功后，刷新仓库网页就能看到修改。
+
+![image-20260729163625390](assets/image-20260729163625390.png)
+
+执行上图这个命令后，如图下所示
+
+![image-20260729165333330](assets/image-20260729165333330.png)
 
 ## 完整命令
 
