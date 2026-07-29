@@ -7,20 +7,27 @@
 ### Git
 
 - [Git 快速入门](git学习/git快速入门.md)
-- [Git 学习笔记](git学习/Git学习笔记.md)
-- [测试文件](git学习/测试文件.txt)
+- [Git 操作测试文件](git学习/测试文件.txt)
 
 相关图片统一保存在 `git学习/assets` 目录中。
+
+### Markdown
+
+- [Markdown 文档的使用](markdown文档学习/markdown文档的使用.md)
+
+相关图片统一保存在 `markdown文档学习/assets` 目录中。
 
 ## 目录说明
 
 ```text
 my-first-repo/
 ├─ README.md
-└─ git学习/
-   ├─ git快速入门.md
-   ├─ Git学习笔记.md
-   ├─ 测试文件.txt
+├─ git学习/
+│  ├─ git快速入门.md
+│  ├─ 测试文件.txt
+│  └─ assets/
+└─ markdown文档学习/
+   ├─ markdown文档的使用.md
    └─ assets/
 ```
 
