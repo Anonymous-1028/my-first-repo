@@ -8,9 +8,25 @@
 下载仓库 → 修改文件 → 添加修改 → 提交修改 → 推送到 GitHub
 ```
 
-## 0.使用前提
+## 0. 安装 Git
 
-==注意：需要执行后面流程，确保你现在已经把git安装到你自己的电脑后才可以执行。==
+开始后面的操作前，需要先在电脑上安装 Git：
+
+- [Git 安装教程](https://www.yuque.com/icheima/arm32/bgbgz6dgoc1amp0f)
+
+安装完成后，打开 CMD 或 PowerShell，执行：
+
+```powershell
+git --version
+```
+
+如果能够看到类似下面的版本号，说明 Git 已安装成功：
+
+```text
+git version 2.x.x.windows.x
+```
+
+确认安装成功后，再继续下面的仓库下载和提交操作。
 
 ## 1. 下载仓库
 
